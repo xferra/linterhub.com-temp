@@ -1,6 +1,6 @@
 linterhub
 ========
-[![Build Status](https://travis-ci.org/svoboda-rabsvto/linterhub.com-temp.svg?branch=master)](https://travis-ci.org/linterhub/www)
+[![Build Status](https://travis-ci.org/svoboda-rabsvto/linterhub.com-temp.svg?branch=master)](https://travis-ci.org/svoboda-rabsvto/linterhub.com-temp)
 
 ## Getting started
 
