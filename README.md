@@ -4,27 +4,7 @@
 
 Repository of all schemas for JSON structures for repositories of Linterhub. The schemas are also hosted online, at [schema.linterhub.com](https:\\schema.linterhub.com).
 
-> Description
-
-This repository contains following schemas:
-
-| schema     | description |
-| -          |  -   |
-| deps       | Definition of package dependencies |
-| package    | Meta-information of software package |
-| linter     | Specific information of linter package |
-| schemaver  | The core schema that implements versioning mechanism |
-| collection | This schema contains of three-part, which are described below |
-
-`collection` - dictionary for identifying some properties in `linter`, `package` or `deps` schemas and consist:
-
-| part of schema | description |
-| -          |  -   |
-| manager    | System and language package managers, sources: [Wikipedia](https://en.wikipedia.org/wiki/List_of_software_package_management_systems). |
-| license    | Programming languages and associated extensions, sources: [linguist](https://github.com/github/linguist) |
-| language   | Software licenses names and acronyms, sources: [SPDX](https://spdx.org/licenses/) |
-
-If you need more details about each of schemas, please visit following folders [`src\schema`](./src/schema/) and [`src\collection`](./src/collection/).
+Information about schemas reead following folder [`src\schema`](./src/schema/).
 
 ## Table of Contents
 
@@ -82,70 +62,21 @@ That's all.
 
 ## Usage
 
+For creating last of version schemas run next command:
+
 ```bash
 gulp build
 ```
 
-In folder `build` can see all last versions of schemas.
+Result of running is building schemas to folder `build`.
 
 ## Maintainers
+
+These amazing people are maintaining this project: [@linterhub/maintainers](@linterhub/maintainers) (?)
 
 ## Contribute
 
 You may contribute in several ways like creating new features, tests, fixing bugs, improving documentation or examples. Find more information in [CONTRIBUTING.md](./CONTRIBUTING.md).
-
-CONTRIBUTING
-
-1. релиз
-2. тесты
-3. импорт
-4. Reporting a bug
-5. Request a feature
-
-- asd
-- добавить новый язык
-- добавить лицензию
-- Добавить менеджер
-
-6. Commit message
-
-### Release
-
-Next command creates the release of last versions of schemas to folder `dist` and these schemas are hosted.
-
-```bash
-gulp release
-```
-
-### Test
-
-We use our tests suite of the [official JSON-schema test suite](https://github.com/json-schema-org/JSON-Schema-Test-Suite). All test files follow in `test` folder. For check test run next command:
-
-```bash
-gulp test
-```
-
-For more details about our tests visit `README.md` in folder `test`.
-
-### Import
-
-To update list of licenses and languages run following command:  
-
-```bash
-gulp import
-```
-
-> This command consists of two-part, it's: `gulp import-license` and `gulp import-language`. You can use it's singly.
-
-### Reporting and bug
-
-
-### Request a feature
-
-1. Add new request
-2. Add custom language
-3. Add new license
-4. Add new manager
 
 ## License
 
