@@ -72,7 +72,7 @@ Result of running is building schemas to folder `build`.
 
 ## Maintainers
 
-These amazing people are maintaining this project: [@linterhub/maintainers](../teams/maintainers) (?)
+These amazing people are maintaining this project: [@linterhub/maintainers](../../../teams/maintainers) (?)
 
 ## Contribute
 
