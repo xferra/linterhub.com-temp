@@ -39,7 +39,9 @@ If you need more details about each of schemas, please visit following folders [
 
 ## Install
 
-- Requirements: [`node.js`](https://nodejs.org/en/download/)
+Requirements:
+
+- [`Node.js`](https://nodejs.org/) - JavaScript runtime built on Chrome's V8 JavaScript engine.
 
 ### Step 1
 
