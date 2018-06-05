@@ -16,7 +16,7 @@ This repository contains following schemas:
 | schemaver  | The core schema that implements versioning mechanism |
 | collection | This schema contains of three-part, which are described below |
 
-`collection schema` - dictionary for identifying some properties in `linter`, `package` or `deps` schemas and consist:
+`collection` - dictionary for identifying some properties in `linter`, `package` or `deps` schemas and consist:
 
 | part of schema | description |
 | -          |  -   |
@@ -41,6 +41,8 @@ If you need more details about each of schemas, please visit following folders [
 
 - Requirements: [`node.js`](https://nodejs.org/en/download/)
 
+### Step 1
+
 For begin work with this repository, you need to clone it before.
 
 Clone repository:
@@ -50,6 +52,8 @@ git clone https://github.com/linterhub/schema.git
 ```
 
 > More information about cloning you can read in [help github](https://help.github.com/articles/cloning-a-repository/)
+
+### Step 2
 
 This repository using 2 submodules: [`SPDX`](https://spdx.org/licenses/) and [`linguist`](https://github.com/github/linguist). For stable work need to initialize and update they.
 
@@ -61,6 +65,8 @@ git submodule update
 ```
 
 > More information about work with submodule(s) you can read in [git-scm](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+
+### Step 3
 
 For running commands of the project need to install [`npm package`](https://www.npmjs.com)
 
