@@ -2,7 +2,7 @@
 
 [![travis-build](https://travis-ci.org/linterhub/schema.svg?branch=master)](https://github.com/linterhub/schema)
 
-Repository of all schemas for JSON structures for repositories of Linterhub. The schemas are also hosted online, at [schema.linterhub.com](https:\\schema.linterhub.com).
+Repository of all schemas for JSON structures for repositories of Linterhub.
 
 Information about schemas reead following folder [`src\schema`](./src/schema/).
 
@@ -16,6 +16,12 @@ Information about schemas reead following folder [`src\schema`](./src/schema/).
 - [License](#license)
 
 ## Background
+
+In our projects, we often use many JSON Objects for work. For each object needs to make tests and changes. After the discussion ended up, proposed to use JSON Objects in a separate repository for convenience and working with.
+
+But many projects can use one JSON object and when JSON is updated, need for that projects working is fine. The decision of this trouble is [semantic releases](https://github.com/semantic-release/semantic-release).
+
+Finally, we have a lot of JSON Objects, schemes and tests for them and semantic release. Then after we create this repository based on the [teamplate](../../../template/) of the organization linterhub.
 
 ## Install
 
@@ -72,7 +78,7 @@ Result of running is building schemas to folder `build`.
 
 ## Maintainers
 
-These amazing people are maintaining this project: [@linterhub/maintainers](../../../teams/maintainers) (?)
+These amazing people are maintaining this project: [@linterhub/maintainers](../../../teams/maintainers)
 
 ## Contribute
 
