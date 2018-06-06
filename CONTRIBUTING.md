@@ -4,19 +4,19 @@ When contributing to this repository, please first discuss the change you wish t
 
 ## Table of Contents
 
-- Development
-- - Test
-- - Import
-- - Release
-- Issue
-- - Reporting a bug
-- - Request a feature
-- - Another questions
-- Pull Request
-- - Preparation
-- - Commit message
+- [Development](#development)
+  - [Test](#test)
+  - [Import](#import)
+  - [Release](#release)
+- [Issue](#issue)
+  - [Reporting a bug](#reporting)
+  - [Request a feature](#request)
+  - [Another questions](#another)
+- [Pull Request](#pull)
+  - [Preparation](#preparation)
+  - [Commit message](#commit)
 
-## Developing
+## Development
 
 Before starting developing you need to `clone` or `create fork` this repository.
 
@@ -25,7 +25,7 @@ How to:
 - [clone repository](./#step-1)
 - [create fork](https://help.github.com/articles/fork-a-repo/)
 
-After that can start deleping.
+After that can start developing.
 
 ### Test
 
@@ -58,11 +58,9 @@ gulp release
 
 ## Issue
 
-If you have some questions, find any bug, have some question or have any idea, please make issue in this repository.
+If you have some questions, find any bug or have any idea, please make issue in this repository.
 
-<aside class="warning">
 Before create any issue please check others issues, probably someone create it before.
-</aside>
 
 ### Reporting a bug
 
