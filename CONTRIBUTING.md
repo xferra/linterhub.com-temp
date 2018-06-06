@@ -1,15 +1,14 @@
 # CONTRIBUTING
 
-When contributing to this repository, please first discuss the change you wish to make via [`issue`](../../issue/), [`[@linterhub/maintainers]`](../../../teams/maintainers), or any other method before making a change.
+When contributing to this repository, please first discuss the change you wish to make via [`issue`](#issue), [`@linterhub/maintainers`](../../../teams/maintainers), or any other method before making a change.
 
 ## Table of Contents
 
-- Developing
-- - Preparation
+- Development
 - - Test
 - - Import
 - - Release
-- Requests
+- Issue
 - - Reporting a bug
 - - Request a feature
 - - Another questions
@@ -17,6 +16,16 @@ When contributing to this repository, please first discuss the change you wish t
 - - Preparation
 - - Commit message
 
+## Developing
+
+Before starting developing you need to `clone` or `create fork` this repository.
+
+How to:
+
+- [clone repository](./#step-1)
+- [create fork](https://help.github.com/articles/fork-a-repo/)
+
+After that can start deleping.
 
 ### Test
 
@@ -39,7 +48,7 @@ gulp import
 
 This command changes foolowing files: `language.linguist.json` and `license.spdx.json` in folder `src\collection`. Read more about this files in folder [`src\collection`](./src/collection)
 
-## Release
+### Release
 
 Next command creates the release of last versions of schemas to folder `dist`.
 
@@ -47,6 +56,22 @@ Next command creates the release of last versions of schemas to folder `dist`.
 gulp release
 ```
 
-### Reporting and bug
+## Issue
+
+If you have some questions, find any bug, have some question or have any idea, please make issue in this repository.
+
+<aside class="warning">
+Before create any issue please check others issues, probably someone create it before.
+</aside>
+
+### Reporting a bug
 
 ### Request a feature
+
+### Another questions
+
+## Pull Request
+
+### Preparation
+
+### Commit message
