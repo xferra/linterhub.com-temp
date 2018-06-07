@@ -75,17 +75,17 @@ Guidelines for bug reports:
 
 A good bug report shouldn't leave others needing to chase you up for more information. Please try to be as detailed as possible in your report. All details about bug will help people to fix any potential bugs.
 
-Сreate issue: [`reporting a bug`](../../../issues/new?template=Bug_report.md)
+Сreate issue: [`reporting a bug`](../../issues/new?template=Bug_report.md)
 
 ### Request a feature
 
 Feature requests are welcome. But take a moment to find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Please provide as much detail and context as possible.
 
-Create issue: [`request a feature`](../../../issues/new?template=Feature_request.md)
+Create issue: [`request a feature`](../../issues/new?template=Feature_request.md)
 
 ### Another question
 
-You can try to write you questions in [@linterhub/maintens](../../../teams/maintainers) or create issue: [`custom issue`](../../../issues/new?template=Custom.md)
+You can try to write you questions in [@linterhub/maintens](../../../teams/maintainers) or create issue: [`custom issue`](../../issues/new?template=Custom.md)
 
 ## Pull Request
 
@@ -101,7 +101,7 @@ Follow this process if you'd like your work considered for inclusion in the proj
 
 #### STEP 1: Install
 
-How to install our project describe in [README.md](./#install)
+How to install our project describe in [README.md](./README.md#install)
 
 #### STEP 2: Get the latest changes
 
