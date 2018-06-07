@@ -32,7 +32,7 @@ More details about our tests read in folder [`test`](./test/).
 
 ### Import
 
-To update list of licenses and languages run following command:  
+To update a list of licenses and languages run following command:  
 
 ```bash
 git submodule update
@@ -51,7 +51,7 @@ gulp release
 
 ## Issue
 
-If you have some questions, find any bug or have any idea, please make issue in this repository.
+If you have some questions, find any bug or have any idea, please make the issue in this repository.
 
 Please respect the following restrictions:
 
@@ -59,7 +59,7 @@ Please respect the following restrictions:
 
 - Please do not use the issue tracker for personal support requests (use Stack Overflow or IRC).
 
-- For a Major Feature, first open an issue and outline your proposal so that it can be discussed. This will also allow us to better coordinate our efforts, prevent duplication of work, and help you to craft the change so that it is successfully accepted into the project.
+- For a Major Feature, first, open an issue and outline your proposal so that it can be discussed. This will also allow us to better coordinate our efforts, prevent duplication of work, and help you to craft the change so that it is successfully accepted into the project.
 
 - Small Features can be crafted and directly submitted as a Pull Request.
 
@@ -83,7 +83,7 @@ Feature requests are welcome. But take a moment to find out whether your idea fi
 
 Create issue: [`request a feature`](../../../issues/new?template=Feature_request.md)
 
-### Another questions
+### Another question
 
 You can try to write you questions in [@linterhub/maintens](../../../teams/maintainers) or create issue: [`custom issue`](../../../issues/new?template=Custom.md)
 
@@ -91,7 +91,7 @@ You can try to write you questions in [@linterhub/maintens](../../../teams/maint
 
 Good pull requests - patches, improvements, new features - are a fantastic help. They should remain focused in scope and avoid containing unrelated commits.
 
-Please ask first before embarking on any significant pull request (e.g. implementing features, refactoring code), otherwise you risk spending a lot of time working on something that the project's developers might not want to merge into the project.
+Please ask first before embarking on any significant pull request (e.g. implementing features, refactoring code), otherwise, you risk spending a lot of time working on something that the project's developers might not want to merge into the project.
 
 Please adhere to the coding conventions used throughout a project (indentation, accurate comments, etc.) and any other requirements (such as test coverage).
 
@@ -150,7 +150,7 @@ Make sure your commit is formatted correctly:
 
 - The pull request must have a description. The description should explain what you did and how its effects can be seen.
 - The commit message is [properly formatted](#commit-message).
-- The change introduces no functional regression. Be sure to run test to verify your changes before submitting a pull request.
+- The change introduces no functional regression. Be sure to run a test to verify your changes before submitting a pull request.
 - All changes must be accompanied by tests, even if the feature you’re working on previously had no tests.
 - All user-facing changes must be accompanied by appropriate documentation.
 
@@ -190,7 +190,7 @@ Must be one of the following:
 | feat         | A new feature |
 | fix          | A bug fix |
 | perf         | A code change that improves performance |
-| refactor     | A code change that neither fixes a bug nor adds a feature |
+| refactor     | A code change that neither fixes a bug or adds a feature |
 | style        | Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc) |
 | test         | Adding missing tests or correcting existing tests |
 
@@ -204,7 +204,7 @@ The subject contains a succinct description of the change:
 ### Body
 
 Just as in the **subject**, use the imperative, present tense: "change" not "changed" nor "changes".
-The body should include the full description for the change.
+The body should include the full description of the change.
 
 ### Footer
 
@@ -217,7 +217,7 @@ Test: Add missing tests for linter (#456)
 
 Adding missing tests for linter:
 - with full data
-- incorect collection of languages
+- incorrect collection of languages
 
 Closes #456
 ```
