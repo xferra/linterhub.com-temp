@@ -18,7 +18,7 @@ When contributing to this repository, please first discuss the change you wish t
 
 ## Development
 
-Before starting developing you need to [`install`](./#install).
+Before starting developing you need to [`install`](./README.md#install).
 
 ### Test
 
