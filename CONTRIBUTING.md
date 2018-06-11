@@ -111,8 +111,19 @@ If you cloned a while ago, get the latest changes from upstream:
 git checkout dev
 git pull upstream dev
 ```
+#### STEP 3: Create a new branch
 
-#### STEP 3: Make your changes
+Сreate a new branch in your fork:
+
+```bash
+git checkout -b issue1234
+```
+
+Where: `issue1234` - is a issue what it is you are fixing
+
+> Note: Do not combine fixes for multiple issues into one branch
+
+#### STEP 4: Make your changes
 
 Make the changes to the code and tests, following the code conventions. Once you finished, commit the changes to your branch:
 
@@ -123,7 +134,7 @@ git commit
 
 Commit your changes using a descriptive commit message that follows our [commit message conventions](#commit-message).
 
-#### STEP 4: Run the tests
+#### STEP 5: Run the tests
 
 After rebasing, be sure to run all of the tests once again to make sure nothing's been affected:
 
@@ -133,7 +144,7 @@ gulp test
 
 If there are any failing tests, update your code until all tests pass.
 
-#### STEP 5: Rebase onto upstream
+#### STEP 6: Rebase onto upstream
 
 Before you send the pull request, be sure to rebase onto the upstream source to ensure your code is running on the latest available code.
 
@@ -142,7 +153,7 @@ git fetch upstream
 git rebase upstream/master
 ```
 
-#### STEP 6: Double check your submission
+#### STEP 7: Double check your submission
 
 With your code ready to go, please double-check your submission to make sure it follows our conventions. Here are the things to check:
 
@@ -154,7 +165,7 @@ Make sure your commit has the right format:
 - All changes must be accompanied by tests, even if the feature you’re working on previously had no tests.
 - All user-facing changes must be accompanied by the correspndent documentation.
 
-#### STEP 7: Push your changes
+#### STEP 8: Push your changes
 
 Next, push your changes to your clone:
 
@@ -162,7 +173,7 @@ Next, push your changes to your clone:
 git push
 ```
 
-#### STEP 8: Send the pull request
+#### STEP 9: Send the pull request
 
 Now you’re ready to send the pull request. Go to your fork and then follow the [GitHub documentation](https://help.github.com/articles/creating-a-pull-request/) on how to send a pull request.
 
@@ -187,12 +198,13 @@ Must be one of the following:
 | name         | description |
 | :-:          | -       |
 | docs         | Documentation only changes |
-| feat         | A new feature |
+| feat         | A new feature, alias `new` |
 | fix          | A bug fix |
 | perf         | A code change that improves performance |
 | refactor     | A code change that neither fixes a bug or adds a feature |
 | style        | Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc) |
 | test         | Adding missing tests or correcting existing tests |
+| breaking     | For a backwards-incompatible enhancement or feature.|
 
 ### Subject
 
